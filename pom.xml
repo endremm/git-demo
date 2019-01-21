@@ -24,6 +24,7 @@
         <java.version>10</java.version>
     </properties>
 
+	<!-- This is my commmment -->
 
     <build>
         <plugins>
