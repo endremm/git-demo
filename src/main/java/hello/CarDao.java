@@ -11,4 +11,8 @@ public class CarDao {
         return List.of("Honda", "Ford");
     }
 
+    public boolean isCarName(String name) {
+        return name.startsWith("Car");
+    }
+
 }
