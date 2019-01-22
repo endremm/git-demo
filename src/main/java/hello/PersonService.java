@@ -16,6 +16,7 @@ public class PersonService {
     }
 
     public List<String> getAllPersons() {
+        // Some comment with tweak
         return personDao.getAllPersons();
     }
 
