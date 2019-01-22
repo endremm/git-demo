@@ -12,11 +12,12 @@ public class PersonService {
 
     @Autowired
     public PersonService(PersonDao personDao) {
+        // More comments
         this.personDao = personDao;
     }
 
     public List<String> getAllPersons() {
-        // Some comment with tweak
+        // Some comment with tweaks
         return personDao.getAllPersons();
     }
 
